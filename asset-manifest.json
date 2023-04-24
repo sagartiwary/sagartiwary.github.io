@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.22d4c846.css",
-    "main.js": "/static/js/main.1b409f0c.js",
+    "main.js": "/static/js/main.0c85bc07.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/sagar-tiwary-resume.pdf": "/static/media/sagar-tiwary-resume.62842930aa6a93f6deed.pdf",
     "index.html": "/index.html",
     "main.22d4c846.css.map": "/static/css/main.22d4c846.css.map",
-    "main.1b409f0c.js.map": "/static/js/main.1b409f0c.js.map",
+    "main.0c85bc07.js.map": "/static/js/main.0c85bc07.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d4c846.css",
-    "static/js/main.1b409f0c.js"
+    "static/js/main.0c85bc07.js"
   ]
 }

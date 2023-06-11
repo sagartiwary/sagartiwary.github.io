@@ -67,13 +67,14 @@ const skill = [
     title: "Git",
     link: "https://git-scm.com/",
   },
+  
 ];
 
 export default function Skills() {
   return (
     <Box py={["0px", "60px", "80px"]} id="skills">
       <Center fontSize={40} color="yellow" position="relative">
-        <Text fontWeight={600}>SKILLS</Text>
+        <Text fontWeight={600}>Skills</Text>
       </Center>
       <Grid
         className="skills-card"

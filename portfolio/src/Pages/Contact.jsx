@@ -33,7 +33,7 @@ export default function Contact() {
         position="relative"
         textAlign="center"
       >
-        <Text fontWeight={600}>CONTACT</Text>
+        <Text fontWeight={600}>Contact</Text>
       </Center>
       <br />
       <br />

@@ -22,11 +22,10 @@ const projectsArray = [
   {
     logo: Doctor,
     title: "Healthcare Department",
-    github:
-      "https://github.com/suraj826580/merciful-note-7666/tree/main/tata1mg_clone",
+    github: "https://tata1mg-clone-umber.vercel.app/",
     live_Link: "https://tata1mg-clone-umber.vercel.app/",
     description:
-      "Tata 1mg is an online healthcare platform that offers a wide range of healthcare products and services, including medicines, diagnostic tests, doctor consultations, and wellness products, to customers in India.",
+      "This project is an online platform for consulting with doctors and making appointments in a healthcare hospital. The platform is built with React, Redux, JSON Server, Chakra UI, CSS, HTML, and JavaScript.",
     techStack: [
       {
         image:
@@ -50,14 +49,14 @@ const projectsArray = [
       },
     ],
   },
-    {
+  {
     logo: Doctor,
     title: "Healthcare Department",
     github:
-      "https://github.com/suraj826580/merciful-note-7666/tree/main/tata1mg_clone",
+      "https://github.com/sagartiwary/ashamed-rainstorm-9299/tree/main/hospital-expertise",
     live_Link: "https://tata1mg-clone-umber.vercel.app/",
     description:
-      "Tata 1mg is an online healthcare platform that offers a wide range of healthcare products and services, including medicines, diagnostic tests, doctor consultations, and wellness products, to customers in India.",
+      "This project is an online platform for consulting with doctors and making appointments in a healthcare hospital. The platform is built with React, Redux, JSON Server, Chakra UI, CSS, HTML, and JavaScript.",
     techStack: [
       {
         image:
@@ -85,10 +84,10 @@ const projectsArray = [
     logo: Travel,
     title: "Travlelocity App",
     github:
-      "https://github.com/suraj826580/melted-scale-2590/tree/main/redmeat",
-    live_Link: "https://redmeat.vercel.app/",
+      "https://github.com/sagartiwary/-urbane-songs-1107/tree/main/project-1",
+    live_Link: "https://tata1mg-clone-umber.vercel.app/",
     description:
-      "Licious.com is an Indian online food delivery platform that offers a range of high-quality meat, seafood, and poultry products sourced directly from local farms and fishermen, delivered conveniently to customers' doorsteps.",
+      "The Travelocity app The Travelocity mobile app helps you browse and manage reservations with ease. It is available for both Android and iOS services. The app will notify you of flight status and gate numbers to keep track of delays.",
     techStack: [
       {
         image:
@@ -110,10 +109,10 @@ const projectsArray = [
   {
     logo: India,
     title: "India's Bridal",
-    github: "https://github.com/suraj826580/snappy-cars-9183",
-    live_Link: "https://singular-blini-baf0ba.netlify.app/",
+    github: "https://github.com/sagartiwary/sore-sugar-4125",
+    live_Link: "https://tata1mg-clone-umber.vercel.app/",
     description:
-      "Mailchimp.com is an all-in-one marketing platform that allows businesses to create and manage email campaigns, build landing pages and websites, and automate their marketing activities in a user-friendly way.",
+      "David's Bridal is a clothier in the United States that specializes in wedding dresses, prom gowns, and other formal wear. It is the largest American bridal-store chain.",
     techStack: [
       {
         image:
@@ -144,7 +143,7 @@ export default function Projects() {
     >
       <Box pb="30px">
         <Center fontSize={40} color="yellow" position="relative">
-          <Text fontWeight={600}>PROJECTS</Text>
+          <Text fontWeight={600}>Projects</Text>
         </Center>
       </Box>
       <Box>

@@ -14,7 +14,20 @@ import {
 } from "@chakra-ui/react";
 import TypeWritter from "../Components/TypeWritter";
 import Contact from "./Contact";
-import  Project  from "./Project";
+import Project from "./Project";
+import SagarImage from "../images/sagar-tiwary.jpg";
+import Resume from "../Resume/sagar-tiwary-resume.pdf";
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = Resume;
+    link.download = "sagar-tiwary-resume.pdf";
+    link.click();
+    window.open(
+      "https://drive.google.com/file/d/105KH1IGo1CoBis2qvDbXiRgyns0-QlLo/view?usp=sharing",
+      "_blank"
+    );
+  };
+
 const HomePage = () => {
   return (
     <div>
@@ -29,7 +42,7 @@ const HomePage = () => {
             <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
               <Text>
                 <Box display={"flex"} gap={2}>
-                  <Text> Hey, </Text>{" "}
+                  <Text color={"blue.400"}> Hey, </Text>{" "}
                   <Text color={"red"} id="user-detail-name">
                     I'm Sagar
                   </Text>
@@ -48,22 +61,21 @@ const HomePage = () => {
               mind who enjoys solving problems and working on new projects.
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-              <Link
-                id="resume-button-2"
-                href="https://drive.google.com/file/d/105KH1IGo1CoBis2qvDbXiRgyns0-QlLo/view?usp=share_link"
-                target="_blank"
-              >
+              <Box id="resume-button-2">
                 <Button
+                 id="resume-link-2"
+                 className="nav-link resume"
                   rounded={"full"}
                   bg={"blue.400"}
                   color={"white"}
                   _hover={{
                     bg: "blue.500",
                   }}
+                  onClick={handleDownload}
                 >
                   Resume
                 </Button>
-              </Link>
+              </Box>
             </Stack>
           </Stack>
         </Flex>
@@ -71,17 +83,15 @@ const HomePage = () => {
           <Image
             className="home-img"
             objectFit={"cover"}
-            h={["250px", "350px", "500px"]}
-            src={
-              "https://images.squarespace-cdn.com/content/v1/54f3875de4b0f6df27baf95f/1632915929295-L8AT4MZYQPFPWTFEDWPF/Pers_Businessman_After_Red.gif"
-            }
+            h={["250px", "300px", "350px"]}
+            src={SagarImage}
             borderRadius={"5%"}
           />
         </Flex>
       </Stack>
       <About />
       <Skills />
-      <Project/>
+      <Project />
       <Contact />
     </div>
   );

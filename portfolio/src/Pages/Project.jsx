@@ -14,18 +14,19 @@ import {
 import React from "react";
 import Doctor from "../images/doctor.png";
 import India from "../images/india.jpg";
-import Travel from "../images/travelocity.jpg"
+import Github from "../images/github.png";
+import Uber from "../images/uber.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLifeRing } from "@fortawesome/free-regular-svg-icons";
 const projectsArray = [
   {
-    logo: Doctor,
-    title: "Healthcare Department",
-    github: "https://tata1mg-clone-umber.vercel.app/",
-    live_Link: "https://tata1mg-clone-umber.vercel.app/",
+    logo: Uber,
+    title: "Savari App",
+    github: "https://github.com/Gauravshukla82/ambiguous-oven-8467",
+    live_Link: "https://savariapp.netlify.app/",
     description:
-      "This project is an online platform for consulting with doctors and making appointments in a healthcare hospital. The platform is built with React, Redux, JSON Server, Chakra UI, CSS, HTML, and JavaScript.",
+      "Uber is a transportation company with an app that allows passengers to hail a ride and drivers to charge fares and get paid. More specifically, Uber is a ridesharing company that hires independent contractors as drivers.",
     techStack: [
       {
         image:
@@ -54,7 +55,7 @@ const projectsArray = [
     title: "Healthcare Department",
     github:
       "https://github.com/sagartiwary/ashamed-rainstorm-9299/tree/main/hospital-expertise",
-    live_Link: "https://tata1mg-clone-umber.vercel.app/",
+    live_Link: "https://helthcarehopital.vercel.app/",
     description:
       "This project is an online platform for consulting with doctors and making appointments in a healthcare hospital. The platform is built with React, Redux, JSON Server, Chakra UI, CSS, HTML, and JavaScript.",
     techStack: [
@@ -81,13 +82,13 @@ const projectsArray = [
     ],
   },
   {
-    logo: Travel,
-    title: "Travlelocity App",
-    github:
-      "https://github.com/sagartiwary/-urbane-songs-1107/tree/main/project-1",
-    live_Link: "https://tata1mg-clone-umber.vercel.app/",
+    logo: Github,
+    title: "Github-Search",
+    github: "https://github.com/sagartiwary/Github-Users",
+    live_Link: "https://github-pi-two.vercel.app/",
     description:
-      "The Travelocity app The Travelocity mobile app helps you browse and manage reservations with ease. It is available for both Android and iOS services. The app will notify you of flight status and gate numbers to keep track of delays.",
+      "GitHub is a web-based platform used for version control and collaboration in software development projects.",
+
     techStack: [
       {
         image:
@@ -110,7 +111,7 @@ const projectsArray = [
     logo: India,
     title: "India's Bridal",
     github: "https://github.com/sagartiwary/sore-sugar-4125",
-    live_Link: "https://tata1mg-clone-umber.vercel.app/",
+    live_Link: "https://roaring-kulfi-2481fd.netlify.app/",
     description:
       "David's Bridal is a clothier in the United States that specializes in wedding dresses, prom gowns, and other formal wear. It is the largest American bridal-store chain.",
     techStack: [
@@ -182,6 +183,7 @@ export default function Projects() {
                     color="#B0BEC5"
                     className="project-description"
                     fontSize={["14px", "15px", "16px", "17px"]}
+                    align="left"
                   >
                     {description}
                   </Text>
@@ -193,9 +195,6 @@ export default function Projects() {
                           py={2}
                           width={"40px"}
                           transition="transform 0.4s"
-                          _hover={{
-                            transform: "rotate(360deg)",
-                          }}
                         >
                           <Link href={link} target="_blank">
                             <Image width={"100%"} src={image} alt="image" />

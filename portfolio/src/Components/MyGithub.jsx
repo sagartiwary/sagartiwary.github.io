@@ -4,18 +4,18 @@ import GitHubCalendar from "react-github-calendar";
 
 export default function MyGithub() {
   return (
-    <Box textAlign="center" position='relative'>
+    <Box textAlign="center" position="relative">
       <Center>
-        <Heading color="#fff" fontSize={["20px", "25px", "30px", "35px"]}>
-          GITHUB  CALENDER
+        <Heading color="#B0BEC5" fontSize={["20px", "25px", "30px", "35px"]}>
+          GITHUB CALENDER
         </Heading>
       </Center>
       <Box>
-        <Center m={["20px", "30px", "50px"]}>
+        <Center m={["20px", "30px", "50px"]} color="blue.400">
           <GitHubCalendar
             username="sagartiwary"
             hideTotalCount={"false"}
-            color={"#fff"}
+            color={"blue.400"}
           />
         </Center>
       </Box>

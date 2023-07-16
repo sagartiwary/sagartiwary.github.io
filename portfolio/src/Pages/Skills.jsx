@@ -6,10 +6,8 @@ import {
   Image,
   Text,
   Center,
-  Heading,
   Box,
 } from "@chakra-ui/react";
-// import Flip from "react-reveal/Flip";
 
 const skill = [
   {
@@ -61,11 +59,6 @@ const skill = [
     icon: "https://dgdeepon.github.io/static/media/chakra-ui_title2-400x400-removebg-preview.fc0f93596462cd01a157.png",
     title: "Chakra UI",
     link: "https://chakra-ui.com/",
-  },
-  {
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
-    title: "Git",
-    link: "https://git-scm.com/",
   },
   
 ];

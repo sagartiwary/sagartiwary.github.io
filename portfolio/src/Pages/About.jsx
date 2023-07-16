@@ -1,7 +1,7 @@
 import { Center, Text, Box, Grid, Image } from "@chakra-ui/react";
 import React from "react";
-import Github from "../images/githubCalander.png";
 import MyGithub from "../Components/MyGithub";
+
 export const About = () => {
   return (
     <Box>
@@ -10,8 +10,6 @@ export const About = () => {
           <Text fontWeight={600}>About</Text>
         </Center>
         <br />
-        <br />
-
         <Center>
           <Grid
             position="relative"

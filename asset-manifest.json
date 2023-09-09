@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.22d4c846.css",
-    "main.js": "/static/js/main.11ef76c0.js",
+    "main.js": "/static/js/main.63138962.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/unsplash.png": "/static/media/unsplash.cca14f76c4952162e706.png",
     "static/media/uber.png": "/static/media/uber.d2888b2d9cf45ad313d2.png",
+    "static/media/compify.png": "/static/media/compify.c33d19c7b0a4a533e156.png",
     "static/media/doctor.png": "/static/media/doctor.e3190cb2475629bcdfb4.png",
     "static/media/sagar-tiwary-resume.pdf": "/static/media/sagar-tiwary-resume.fdfb216365b73e6c3ace.pdf",
     "static/media/india.jpg": "/static/media/india.e37c899f2b45b4fb8f31.jpg",
@@ -11,11 +13,11 @@
     "static/media/sagar.jpg": "/static/media/sagar.629cd010fabc2131ee87.jpg",
     "index.html": "/index.html",
     "main.22d4c846.css.map": "/static/css/main.22d4c846.css.map",
-    "main.11ef76c0.js.map": "/static/js/main.11ef76c0.js.map",
+    "main.63138962.js.map": "/static/js/main.63138962.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d4c846.css",
-    "static/js/main.11ef76c0.js"
+    "static/js/main.63138962.js"
   ]
 }

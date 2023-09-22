@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22d4c846.css",
-    "main.js": "/static/js/main.8fc9c0ea.js",
+    "main.js": "/static/js/main.39a29884.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/unsplash.png": "/static/media/unsplash.cca14f76c4952162e706.png",
     "static/media/uber.png": "/static/media/uber.d2888b2d9cf45ad313d2.png",
@@ -10,14 +10,14 @@
     "static/media/doctor.png": "/static/media/doctor.e3190cb2475629bcdfb4.png",
     "static/media/Sagar-Tiwary-Resume.pdf": "/static/media/Sagar-Tiwary-Resume.68c64f9a7d5ee92a3391.pdf",
     "static/media/jobster.png": "/static/media/jobster.708776d0f6b7b28bbb9a.png",
-    "static/media/sagar.jpg": "/static/media/sagar.629cd010fabc2131ee87.jpg",
+    "static/media/sagar.jpg": "/static/media/sagar.fe6125b3044278038c62.jpg",
     "index.html": "/index.html",
     "main.22d4c846.css.map": "/static/css/main.22d4c846.css.map",
-    "main.8fc9c0ea.js.map": "/static/js/main.8fc9c0ea.js.map",
+    "main.39a29884.js.map": "/static/js/main.39a29884.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d4c846.css",
-    "static/js/main.8fc9c0ea.js"
+    "static/js/main.39a29884.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22d4c846.css",
-    "main.js": "/static/js/main.799284e8.js",
+    "main.js": "/static/js/main.d18b840a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/unsplash.png": "/static/media/unsplash.cca14f76c4952162e706.png",
     "static/media/uber.png": "/static/media/uber.d2888b2d9cf45ad313d2.png",
@@ -9,15 +9,17 @@
     "static/media/compify.png": "/static/media/compify.c33d19c7b0a4a533e156.png",
     "static/media/doctor.png": "/static/media/doctor.e3190cb2475629bcdfb4.png",
     "static/media/sagar-tiwary-resume.pdf": "/static/media/sagar-tiwary-resume.68c64f9a7d5ee92a3391.pdf",
+    "static/media/Next.js.png": "/static/media/Next.js.58b9162eced8871334d9.png",
     "static/media/jobster.png": "/static/media/jobster.708776d0f6b7b28bbb9a.png",
     "static/media/sagar.jpg": "/static/media/sagar.fe6125b3044278038c62.jpg",
     "index.html": "/index.html",
+    "static/media/vercel.svg": "/static/media/vercel.f5484f30e5f7294cabcb90c9a1b5c0db.svg",
     "main.22d4c846.css.map": "/static/css/main.22d4c846.css.map",
-    "main.799284e8.js.map": "/static/js/main.799284e8.js.map",
+    "main.d18b840a.js.map": "/static/js/main.d18b840a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d4c846.css",
-    "static/js/main.799284e8.js"
+    "static/js/main.d18b840a.js"
   ]
 }
